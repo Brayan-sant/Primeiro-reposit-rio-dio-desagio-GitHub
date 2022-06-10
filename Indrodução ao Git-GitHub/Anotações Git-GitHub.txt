@@ -1,0 +1,46 @@
+        O git criado por Linus Torvalds em 2005 é um sistema (software) de versionamento de código distribuído. 
+        Ajuda criar e monitorar diferentes versões de nosso código. 
+
+        Sigla SHA – Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+        A encriptação gera um conjunto de caracteres identificador de 40 dígitos, ou seja, ele é único, pois, serve de identificação do seu arquivo.
+
+        Três tipos básicos de objetos do Git que são responsáveis pelo versionamento de código:
+
+          •BLOBS: objetos guardados dentro dos Blob (bloco básico de composição), contém metadados do Git.
+          •TREES: árvores. As trees armazenam e apontam para tipos de Blobs diferentes. A árvore será responsável por montar toda estrutura de onde estão localizados os arquivos.
+          •COMMITS: é o objeto que irá juntar tudo. aponta para uma árvore, aponta para um parente, ou seja, ele aponta para o último commit realizado antes dele, aponta para um autor, aponta para uma mensagem, também tem timestamp .
+
+
+        Conceito de Tracked e Untracked:
+
+    Tracked – arquivos que são rastreados dentro do Git, se subdivide em:
+         •Unmodified – arquivo não modificado
+         •Modified – é um arquivo unmodified que sofreu modificação, se dá pela modificação do SHA1 do arquivo original 
+         •Staged – onde ficam os arquivos que estão sendo preparados para fazem parte de outro tipo de agrupamento (comando: git add). 
+
+    Untracked – são os arquivos que o Git não tem ciência deles, ou seja, não rastreados.
+
+
+         Comando: Git init – além de criar a pasta .git o comando inicializa um conceito dentro do Git chamado repositório         
+         O que significa o repositório que o Git init cria?
+
+    Há separação de 2 ambientes:
+         •Ambiente de desenvolvimento – representa tudo que está na máquina – terá versão na máquina.
+                      o Ambiente de trabalho (Working directory)
+                      o Área de Stage (Stagin area)
+                      o Repositório local (Local Repository) – quando dá o commit ele passa integrar o repositório local que por sua vez, poderá ser empurrado para o servidor (repositório remoto).
+
+         •Servidor – GitHub – pois, como o git é um sistema distribuído ele terá versão na web
+       
+       Toda modificação que for feita na máquina não irá automaticamente ser feita no servidor (remote ropository). A não ser que dê os comandos específicos para tal.
+
+       Em resumo:
+       De working directory - comando git add para Stagin area e git commit -m “” para colocar no Local Repository.
+
+       O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+       DICA
+       Tanto no Git quanto no GitHub, é interessante deixar e-mail e user name iguais, porque quando faço commit no repositório local o Git irá atrelar aquele commit com um user name e e-mail (que é aquele que eu citei na configuração).
+       
+
+Link para dowload do Git: https://git-scm.com/downloads

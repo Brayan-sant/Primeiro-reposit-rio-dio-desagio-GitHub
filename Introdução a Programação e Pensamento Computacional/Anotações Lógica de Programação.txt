@@ -1,0 +1,60 @@
+      Programar é resolver problemas e não somente digitar códigos!
+
+      O que é lógica? 
+
+      Coerência de raciocínio de ideais. Sequência coerente, regular e necessária de acontecimentos.
+
+      Lógica na Programação 
+
+      Significa apenas contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações (são algoritmos) para solucionar o problema.
+
+**Seres humanos podem prever o seu comportamento, os computadores não. 
+    Por isso, que os computadores precisam das instruções detalhadas para que ele possa estar executando o mesmo passo a passo que nós. 
+    E por isso, utilizamos a lógica na programação.***
+
+      Técnicas de Lógica de Programação
+
+        •Técnica Linear: modelo tradicional, não possui vínculo, há uma estrutura hierárquica. Modelo de técnica e resolução de problemas. Muito associada a matemática, pela característica linear.
+        •Técnica Estruturada: organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato).
+        •Técnica Modular: onde define-se parte independentes que são controladas por um conjunto de regras (ex. cada módulo).
+
+      Qual a função do computador?
+
+      Processão as informações que são passadas para ele. As informações são compostas por 2 tipos de conteúdo:
+
+        •Dados: dados puros, objeto de manipulação, tratamento e processamento do computador. Tipos básicos de dados: numéricos (inteiros e reais), caracteres (tudo aquilo que não se caracteriza como número, mas dependendo até o próprio número poderá ser um caractere) e lógicos (Booleano – verdadeiro - 1/ falso – 0).
+        •Instruções: são normativas e diretrizes utilizadas pelo computador para executar determinadas ações que irão processar aqueles dados.
+
+      São as operações que vão processar os dados. Em resumo as ações que iremos executar em cima de nossos dados, geralmente cálculos matemáticos (manipular o dado), para isso utiliza-se os operadores.
+      Operadores podem ser tanto binário quanto unário:
+
+        •Unário: quando se coloca “+” que é operador de manutenção de sinal, ou seja, ele irá manter o sinal que determinado número esteja carregando.
+         Operador de inversão de sinal, quando se coloca “-“ na frente do número seja negativo ou positivo, ele irá inverter o sinal.
+        •Binário: exemplifica a exponenciação divisão, multiplicação, adição e subtração (quando se tratra de Inteiro ou real).
+
+       Estruturas condicionais e operadores
+
+       Condicional: expressa uma condição ou suposição. Contém ou implica uma suposição ou hipótese. 
+       Então há uma condição que se satisfeita executa uma determinada instrução.
+  
+        •Estrutura condicional simples: verifica se apenas a condição foi satisfeita, ‘operação’
+        •Estrutura condicional composta: há exemplificação da condição “exceção” e ‘operação’, onde se a condição não foi satisfeita eu jogo uma exceção.
+        •Estrutura condicional encadeada: é um “se” e “se não”, sucessão de estruturas condicionais.
+
+       Operadores relacionais podem estar ajudando a definir as estruturas de condição dentro de um algoritmo. 
+       Assim, pode ajudar verificar uma determinada ação, e se a condição for satisfeita (verdadeira) executa a ação.
+
+       Operadores lógicos:
+
+        •AND – verifica as entradas (todas devem ser satisfeitas). Sempre falsa, se um ou outro for, e Verdadeiros quando todos forem. And é a interseção.
+        •OR – se uma condição for V ou a outra for V, fica V. Preciso que apenas 1 condição seja verdadeira. Se ambas forem falso, o resultado é falso. Or é a união
+        •NOT – operador de negação, onde a inversão do resultado lógico é o resultado da operação. Ex. se tem uma condição que é V, ela se torna F, e vise-versa. Ex. Not B - > tudo que não está em B
+
+
+
+
+
+
+
+
+
