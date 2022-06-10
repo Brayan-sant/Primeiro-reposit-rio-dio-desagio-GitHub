@@ -17,8 +17,8 @@ Repositório criado para o **_Desafio de Projeto_.**
 ### Referências Bibliográficas
 
 ### Agradecimentos :smile:
-       Obrigado toda equipe por este evento, está sendo uma jornada empolgante! 
-       Nunca me imaginei programando e estou 💗 
+      Obrigado toda equipe por este evento, está sendo uma jornada empolgante! 
+      Nunca me imaginei programando e estou 💗 
       
 
 #### :white_check_mark: [**contratodecompromisso**](https://www.linkedin.com/in/brayan-souza-5ab83b187/)
