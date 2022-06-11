@@ -14,6 +14,8 @@ Repositório criado para o **_Desafio de Projeto_.**
 ### Links Úteis
 &nbsp;&nbsp;&nbsp;&nbsp;[*__Sintaxe Básica Markdown__*](https://www.markdownguide.org/basic-syntax/)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[*__Dowload do Git__*]( https://git-scm.com/downloads)
+
 ### Cronograma
 
 ### Agradecimentos :smile:
