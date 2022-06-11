@@ -50,6 +50,122 @@
         •OR – se uma condição for V ou a outra for V, fica V. Preciso que apenas 1 condição seja verdadeira. Se ambas forem falso, o resultado é falso. Or é a união
         •NOT – operador de negação, onde a inversão do resultado lógico é o resultado da operação. Ex. se tem uma condição que é V, ela se torna F, e vise-versa. Ex. Not B - > tudo que não está em B
 
+       Estrutura de Repetição
+      
+        Se um pedaço do código precisa ser executado mais de uma vez com diferentes parâmetros, diferentes valores dentro de suas variáveis eu preciso criar uma estrutura de repetição.
+
+       Vantagens da estrutura de repetição:
+
+        •Redução de linhas 
+        •Compreensão facilitada
+        •Redução do erro 
+
+       Vetores e Matrizes
+
+         Um vetor será uma sequência de tipos dados. É caracterizado por uma variável dimensionada com tamanho pré-fixado, que irá receber N valores. Vetor também pode ser encarado como um contaier ou Matriz unidimensional.
+         A matriz é uma tabela organizada em linhas e colunas no formato mxn, onde m representa o número de linhas (horizontal) e n o número de colunas (vertical). matrizes são uma coleção de variáveis ou uma coleção de vetores, e para navegar pela coleção de variáveis ou vetores, necessita-se dos índices, pois, vão determinar a linha e a coluna onde estão cada elemento. 
+
+       O que são funções?
+
+         Funções também são conhecidas como, subprogramas, subalgoritmo, bloco, sub-rotina ou método. Também traz ideia de módulo. Função vai implicar que um elemento do conjunto A esteja conectado a um elemento do conjunto B. Então a função a partir de um argumento que ela recebe irá te retornar um valor.
+         Assim, funções são blocos de instruções (trechos de códigos), identificados por nomes e parâmetros que realizam tarefas específicas que podem ser chamados dentro do código principal.
+
+       O que se tem atrelado a função (variáveis):
+
+        •Definição
+        •Nome
+        •Invocação 
+        •Variável local – são destruído no momento que a função retorna o resultado para o programa principal (desalocadas da memória).
+
+
+       O que a Modularização do programa trás de benefício?
+
+        •Programa fica mais claro e conciso (limpo e legível)
+        •Reutilização de código (instruções)
+
+        Instruções de entrada/saída
+  
+         Entrada: Consiste na inserção e recebimento de dados do mundo real por meio de ação de alguma interface, seja teclado, mouse, arquivos e etc.
+         Saída: Consiste na impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface. Os formatos podem variar desde simples arquivos binários, até complexos querys de bancos de dados. 
+
+        Existem 2 tipos de saídas:
+
+        •Saída programada: pode ser condicional ou não
+            o Quando condicional – aguarda o dispositivo acionar a saída para imprimir os valores (resultados)
+
+        •Saída por interrupção: definida pelos periféricos
+
+        Introdução a linguagens de programação
+
+         Base da computação (pesquisas anteriores) e baseado em lições aprendidas, geram novos paradigmas no decorrer do tempo.
+         Toda evolução tecnológica inicia-se pelo hardware e depois para o software. O hardware limita a capacidade do software.
+         Ao longo da história, pelo fato de sempre estar lançando novas tecnologias e linguagens, significa que há muitos problemas computacionais, e hoje em dia a grande dificuldade é o gerenciamento dos Big Data. Assim, cada era teve a sua dimensão de problemas, mas os desafios são muito parecidos.
+
+        O que é uma linguagem de programação?
+
+         Método padronizado composto por conjunto de regras sintáticas e semânticas de implementação de um código fonte (conjunto de palavras com regras reservadas para determinada linguagem). E o código fonte pode ser traduzido ou interpretado.
+         Então para que o programa não seja apenas um amontoado de palavras, ocorre o “Processo de tradução”, que está relacionado a compilação. 
+         Assim, dada uma linguagem de alto nível (Programa Fonte), ela será enviada para um compilador que irá executar análise do programa (Processo de tradução ou compilação), e esse compilador irá traduzir meu programa de alto nível em um código de baixo nível  -
+         Programa Objeto (de linguagem de máquina, ex. Assembly), aí sim o computador entende o que está ali dentro.
+
+        •Processo de tradução, há geração do programa objeto e execução desse programa. Execução é mais rápida e gera Programas menores. C++, Java
+        •Processo de intepretação, programa fonte é executado diretamente (torna o processo mais lento). O computador não irá gerar um programa objeto de baixo nível, por isso que o processo de interpretação é mais lento, pois, exige todo um trabalho para que o computador possa entender aquela linguagem de alto nível para que possa executá-lo.
+           o Tem maior flexibilidade, mais fácil de se programar, que é mais lenta. Ex. Ruby, Python, JavaScript
+
+        Conceito de transpilação: similar ao conceito de compilação, só que ao invés de jogar de uma linguagem de alto nível para baixo nível, joga de uma linguagem de alto nível para outra de alto nível (só que um pouco mais baixa), ex. TypeScript – transpilado para JavaScript.
+
+        Características de um programa
+
+        •Legibilidade – código tem uma boa leitura
+        •Redigibilidade – se ele está bem escrito (código de fácil escrita)
+        •Confiabilidade – execute o que promete fazer
+        •Custo – tenha baixo custo/Como estou utilizando meu recurso? Estou deixando meu código eficiente para aquele cenário? Para isso, precisa verificar:
+           o Parte de treinamento – com time, para que possam escrever códigos cada vez mais eficientes
+           o Parte da Codificação
+           o Parte da Compilação – traduzir o código, trazer programa fonte para programa objeto
+           o Própria execução do programa pode acarretar alto custo e poder computacional.
+           o Infraestrutura – também direcionada para o determinado contexto, justamente para que otimize os recursos.
+        •Atualizações – surge alguma coisa nova com relação a linguagem nova, framework novo
+        •Uso de IA – atrelado a linguagem Python/Ciência de Dados/Machini Learning
+        •Disponibilidades de ferramentas
+        •Comunidade ativa
+        •Adoção pelo mercado
+
+       Análise de Código
+
+        •1° análise léxica ou scaner (leitura): sua função é fazer a leitura do programa fonte (caractere por caractere/letra por letra) e agrupar em lexenos (produz uma sequência de símbolos léxicos – conhecidos como toke). 
+        •2° análise sintaxe – se remete a forma. Componente do sistema linguístico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura. Assim, qual que é a estrutura relacionada para codificação dentro da linguagem específica (depende da linguagem de programação utilizada). 
+        •3° análise semântica – relacionada ao significado. É o estudo do significado, pois, incide sobre a relação entre significantes, como: palavras, símbolos, frases e sinais. É a lógica do programa.
+
+       Paradigmas da Programação
+
+         paradigma possui regras para resolução de um problema e ele está limitado por algumas diretrizes ou contexto específico.
+
+         Classificações:
+
+       •Orientação à objeto (Mais utilizado) – Linguagens C++, Java, Python
+           o Paradigma de programação baseado na utilização de objetos e suas interações. Análogo ao mundo real.
+           o Pilares de Orientação a Objeto
+                 Herança – uma classe filha ergue as características de uma classe mãe, ou seja, os atributos, métodos e comportamentos. 
+                 Encapsulamento
+                 Polimorfismo
+                 Abstração
+           o Interessante da Orientação a Objeto – Reuso de código
+
+       •Procedural – chamadas sucessivas e procedimentos separados (ideia de sequência)
+       •Funcional – instruções são baseadas em funções
+       •Estruturado – estrutura de blocos aninhados. (Mais utilizado) – Linguagens C++, JavaScript, C.
+          o Paradigma Estruturado: esse conceito trás consigo a ideia de sequência, decisão (relacionado teste lógico) e iteração( relacionado a funções, laços e condições). Então a ênfase dele são instruções sendo executadas em sequência (independente da estrutura – condicional ou repetição). Dominou mercado até chegada da Estrutura Orientada a Objeto
+
+       •Computação distribuída – possui funções executadas de forma independente. Assim o meu programa deve ser criado de forma que ele tenha módulos independentes dentro dele para que ele possa ser distribuído dentro do cluster 
+       •Lógico
+
+
+
+
+
+
+
 
 
 

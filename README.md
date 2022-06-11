@@ -14,12 +14,12 @@ Repositório criado para o **_Desafio de Projeto_.**
 ### Links Úteis
 &nbsp;&nbsp;&nbsp;&nbsp;[*__Sintaxe Básica Markdown__*](https://www.markdownguide.org/basic-syntax/)
 
-### Referências Bibliográficas
+### Cronograma
 
 ### Agradecimentos :smile:
      Obrigado toda equipe por este evento, está sendo uma jornada empolgante! 
      Nunca me imaginei programando e estou 💗 
-      
+
 
 #### :white_check_mark: [**contratodecompromisso**](https://www.linkedin.com/in/brayan-souza-5ab83b187/)
 
